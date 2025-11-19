@@ -58,47 +58,54 @@ bankruptcy-prediction-model/
 
 
 ## 🖥 Run the Web App Locally
+## 🖥 Run the Web App Locally
 
 ### 1️⃣ Create a virtual environment
 ```bash
 python -m venv venv
-2️⃣ Activate it
+```
+
+### 2️⃣ Activate it
+```bash
 venv\Scripts\activate
-3️⃣ Install dependencies
+```
+
+### 3️⃣ Install dependencies
+```bash
 pip install streamlit pandas numpy scikit-learn pyperclip
-4️⃣ Run the app
+```
+
+### 4️⃣ Run the app
+```bash
 streamlit run stream.py
+```
 
-🔍 Sample Prediction Output
-The app predicts one of the following:
-
-
-✅ Company is Alive
-
-
-⚠️ Company can Fail
-
-
-
-🔮 Future Enhancements
-
-
-Cloud deployment (Streamlit Cloud)
-
-
-Add Deep Learning models (LSTM/ANN)
-
-
-Industry-specific bankruptcy analysis
-
-
-Automated feature extraction
-
-
-
-👩‍💻 Developer
-Janhavi Sunil Rewale
-Data Science Student
+Your browser will open automatically.
 
 ---
+
+## 🔍 Sample Prediction Output
+
+The app predicts one of the following:
+
+- ✅ **Company is Alive**  
+- ⚠️ **Company can Fail**
+
+---
+
+## 🔮 Future Enhancements
+- Cloud deployment (Streamlit Cloud)  
+- Add Deep Learning models (LSTM/ANN)  
+- Industry-based bankruptcy analysis  
+- Automated feature extraction  
+
+---
+
+## 👩‍💻 Developer
+**Janhavi Sunil Rewale**  
+Data Science Student | Machine Learning Enthusiast  
+
+
+
+
 
