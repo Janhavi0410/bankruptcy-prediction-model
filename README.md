@@ -44,14 +44,16 @@ Built using **Random Forest**, deployed using **Streamlit**, and trained on stru
 
 ## 📁 Project Structure
 
+```
 bankruptcy-prediction-model/
 │
-├── stream.py # Streamlit web application
-├── random_forest_model.pkl # Trained Random Forest model
-├── american_bankruptcy.csv # Dataset used for training/testing
-├── us-company-bankruptcy.ipynb # Full machine learning pipeline
-├── .gitignore # Ignored system files
-└── README.md # Project documentation
+├── stream.py                         # Streamlit web application
+├── random_forest_model.pkl           # Trained Random Forest model
+├── american_bankruptcy.csv           # Dataset used for training/testing
+├── us-company-bankruptcy.ipynb       # Full machine learning pipeline
+├── .gitignore                        # Ignored system files
+└── README.md                         # Project documentation
+```
 
 
 
